@@ -1,0 +1,17 @@
+{
+  "name": "patronat_frontend_zad1",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.3.7",
+    "ui-router": "~0.2.13"
+  }
+}

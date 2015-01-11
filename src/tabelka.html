@@ -1,0 +1,16 @@
+<!-- <div ng-controller="NameController">  -->
+   <input type="text" ng-model="search.event"  placeholder="wpisz nazwe eventu"/>
+<table class="Oceny" border="1" >
+    <tr>
+      <th>Przedmiot</th>
+      <th>Event</th>
+      <th><a href="" ng-click="reverse=!reverse;order('ocena',reverse)">Ocena</a></th>
+    </tr>
+    <tr ng-repeat="dziennik in Oceny | filter: search:strict">
+      <td>{{dziennik.przedmiot}}</td>
+      <td>{{dziennik.event}}</td>
+      <td>{{dziennik.ocena}}</td>
+    </tr>
+
+  </table>
+<!-- </div>  -->
